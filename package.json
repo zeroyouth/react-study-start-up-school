@@ -1,0 +1,27 @@
+{
+  "name": "react-study-start-up-school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch":"jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoon2hooni/react-study-start-up-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoon2hooni/react-study-start-up-school/issues"
+  },
+  "homepage": "https://github.com/hoon2hooni/react-study-start-up-school#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@types/jest": "^27.5.1",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  }
+}
