@@ -1,14 +1,14 @@
 "use strict";
 
-// //1번입니다.
-// let fruits = ["사과", "배", "오렌지"];
+//1번입니다.
+let fruits = ["사과", "배", "오렌지"];
 
-// // 배열을 '복사'한 후, push 메서드를 이용해 새로운 값을 추가합니다.
-// let shoppingCart = fruits;
-// shoppingCart.push("바나나");
+// 배열을 '복사'한 후, push 메서드를 이용해 새로운 값을 추가합니다.
+let shoppingCart = fruits;
+shoppingCart.push("바나나");
 
-// // fruits에 어떤 값이 들어 있을까요?
-// alert(fruits.length); // 4, 배열은 객체라서 같은 배열을 참조하기 때문
+// fruits에 어떤 값이 들어 있을까요?
+alert(fruits.length); // 4, 배열은 객체라서 같은 배열을 참조하기 때문
 
 //2번입니다.
 let styles = ["Jazz", "Blues"];
@@ -60,6 +60,7 @@ function getMaxSubSum(arr) {
 
   return maxSum;
 }
+
 
 alert(getMaxSubSum([-1, 2, 3, -9])); // 5
 alert(getMaxSubSum([-1, 2, 3, -9, 11])); // 11
